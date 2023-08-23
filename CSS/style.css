@@ -1,5 +1,6 @@
 html{
     font-family: 'Courier New';
-    background-color: aqua;
-     color: black;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    scroll-behavior: smooth;
 }
