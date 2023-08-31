@@ -1,0 +1,47 @@
+:root{
+    --darkColor: rgb(0, 37, 80);
+    --lightColor: rgb(253, 81, 81);
+    --linkColor: rgb(255, 135, 219);
+}
+
+html{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Permanent Marker', cursive;
+
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+    font-size: 20px;
+}
+
+a{
+    color: var(--linkColor);
+}
+a:hover{
+   color: var(--lightColor);
+}
+
+img,iframe,table{
+    max-width: 100%;
+}
+
+.borderPersonalizado{
+    border: 3px;
+    border-style: double;
+    border-color: var(--lightColor);
+}
+
+.centrarTexto{
+    text-align: center;
+}
+
+.colorenlace{
+    color: var(--link-color);
+}
+
+.colorh2{
+    color: var(--linkColor);
+}
+
+.border50{
+    border-radius: 50%;
+}
